@@ -111,7 +111,7 @@ public class MainViewModel extends ViewModel {
             public void onFailureRequest(Throwable t) {
                 handleNetworkError.call();
             }
-        }, paymentRequestBuilder.getPaymentMethod().getId(), paymentRequestBuilder.getAmount().toString(), paymentRequestBuilder.getBank().getId());
+        }, paymentRequestBuilder.getPaymentMethod().getId(), paymentRequestBuilder.getAmount(), paymentRequestBuilder.getBank().getId());
     }
 
     public void addDuesToPaymentRequest(String dues) {
