@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MercadoLibre</string>
+    <string name="mercadolibre_api_key">444a9ef5-8a6b-429f-abdf-587639155d88</string>
+    <string name="payment_description">valor: %1$s \n medio de pago: %2$s \n banco: %3$s \n cuotas: %4$s</string>
+    <string name="bank_selection_label">Por favor seleccione un banco</string>
+    <string name="payment_method_selection_label">Por favor seleccione un metodo de pago</string>
+    <string name="installments_selection_label">Por favor seleccione cuotas de pago</string>
+    <string name="network_error">Parece que hay un problema con la red, por favor intente nuevamente más tarde</string>
+    <string name="bank_empty_menu_options">este método de pago no tiene un bancos asociados en este momento</string>
+    <string name="please_validate_value">por favor verifique el valor</string>
+    <string name="payment_data">Datos de pago</string>
+    <string name="amount_label">Por favor ingrese la cantidad a pagar</string>
+
+
+
+</resources>
